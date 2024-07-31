@@ -57,6 +57,7 @@ Add the following lines to your shell profile file (e.g., .bashrc, .zshrc, or .p
 export CLIENT_ID='your_client_id'
 export CLIENT_SECRET='your_client_secret'
 export ENV='dev'  # or 'prod' for production
+export MUNCHKIN_ID='<YOUR MUNCHKIN ID>' 
 ```
 5. Save the file and reload the shell profile:
 ```bash
