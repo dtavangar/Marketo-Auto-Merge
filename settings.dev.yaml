@@ -1,0 +1,21 @@
+# settings.dev.yaml
+start_days_before_end: 1  # Number of days to perform the bulk extract. The more days, the longer the process takes and the more API calls are used.
+log_name: 'merge.dev.log'  # Change this to modify the log file name.
+log_location: './'  # Default is the script location. Must use an absolute path.
+auth_endpoint: '/identity/oauth/token'  # See https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication
+
+# Custom field settings
+custom_field_name: 'clientid'  # Custom field name for matching leads
+use_custom_field: true  # Set to false to disable custom field matching
+
+# DO NOT CHANGE BELOW THIS LINE IF YOU ARE NOT SURE ABOUT ITS PURPOSE
+bulk_export_create_endpoint: '/bulk/v1/leads/export/create.json'
+bulk_export_enqueue_endpoint: '/bulk/v1/leads/export/{}/enqueue.json'
+bulk_export_status_endpoint: '/bulk/v1/leads/export/{}/status.json'
+bulk_export_file_endpoint: '/bulk/v1/leads/export/{}/file.json'
+merge_endpoint: '/rest/v1/leads/{}/merge.json'
+fields: ["id", "Email", "createdAt"]
+filter_date_format: '%Y-%m-%dT%H:%M:%SZ'
+merge_in_crm: 'false'  # Whether to merge in CRM, false by default
+download_location: './downloads/'  # Directory to save downloaded files
+job_end_days: 31  # The range must be 31 days or fewer.
