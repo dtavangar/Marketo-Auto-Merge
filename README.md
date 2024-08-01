@@ -15,7 +15,7 @@ This script is designed to manage leads in Marketo by performing bulk extract op
 This project is licensed under the GPL License.
 
 # Features:
-- Merge Leads based on email and Custom Field (both has to match) or email nly depending on configuration
+- Merge Leads based on email and Custom Field (both has to match) or email only can be configured to work either way.
 - Utilizing Marketo Bulk Extract to download the records into local system before merging
 - Every action is logged including:
 - - total execution time
