@@ -7,7 +7,7 @@ This script is designed to manage leads in Marketo by performing bulk extract op
 ## Author
 
 - **Name**: Damon Tavangar
-- **Email**: tavangar@2017@gmail.com
+- **Email**: tavangar2017@gmail.com
 
 ## License
 
@@ -29,4 +29,4 @@ This project is licensed under the GPL License.
 1. Clone the repository:
    ```bash
    git clone https://github.com/dtavangar/Marketo-Auto-Merge.git
-   cd marketo-Auto-Merge
+   cd Marketo-Auto-Merge
