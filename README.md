@@ -1,4 +1,4 @@
-# Marketo Lead Management Script
+# Marketo Auto Merge Script
 
 ## Overview
 
